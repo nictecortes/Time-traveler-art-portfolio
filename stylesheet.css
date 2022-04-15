@@ -114,19 +114,22 @@ div .menu-images a {
   background: transparent linear-gradient(180deg, #010c14 16%, #083a5f 100%)
     no-repeat;
 }
+.pencil-drawings--title {
+  width: 600px;
+  height: auto;
+  place-items: center;
+}
 .pencil-drawings h2 {
   color: white;
   font-size: 3.5rem;
   text-align: center;
   padding: 15px;
 }
-.pencil-drawings h2 span {
-  font-weight: 300;
-}
-hr {
+.pencil-drawings--title hr {
   border: 0.5px solid var(--soft-blue);
   width: 150px;
 }
+
 .pencil-drawings .wrapper {
   padding: 100px;
 }
@@ -135,7 +138,7 @@ hr {
   width: 120px;
   height: 100px;
   transform: skewX(-30deg);
-  overflow: auto;
+  overflow: hidden;
   position: relative;
 }
 .pencil-drawings .skewed img {
@@ -146,20 +149,22 @@ hr {
   top: -30px;
   left: -48px;
 }
+.pencil-drawings .wrapper-transparent {
+  padding: 100px;
+}
 .pencil-drawings .skewed-transparent {
-  margin: 20px;
-  width: 350px;
+  width: 250px;
   height: 300px;
   transform: skewX(-30deg);
-  overflow: auto;
+  overflow: hidden;
   position: relative;
 }
 
 .pencil-drawings .skewed-transparent img {
-  max-width: 280px;
+  max-width: 400px;
   opacity: 50%;
-  transform: skewX(30deg);
+  transform: skew(30deg);
   position: absolute;
   top: -30px;
-  left: -60px;
+  left: -75px;
 }
