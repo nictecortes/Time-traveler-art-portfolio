@@ -1,0 +1,118 @@
+:root {
+  --soft-blue: #53aad1;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+  font-family: "Quicksand";
+}
+
+body {
+  background: linear-gradient(180deg, #083a5f 16.69%, #010c14 100%);
+  background-repeat: no-repeat;
+  min-width: 280px;
+  height: auto;
+}
+a {
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+nav .nav-center {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+nav .nav-center li {
+  color: white;
+  margin: 20px;
+  font-size: 1.5rem;
+  display: flex;
+}
+
+nav .nav-center .home-icon {
+  background-image: url("./Assets/piramide-home.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 50px;
+  height: 50px;
+}
+
+nav .nav-center .menu-icon {
+  background-image: url("./Assets/menu-burger.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+}
+nav .nav-center .logo {
+  background-image: url("./Assets/time-traveler-logo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 80px;
+  height: 80px;
+}
+.quote--container {
+  margin: 0 auto;
+  width: 150px;
+  height: auto;
+}
+.quote {
+  color: white;
+  font-weight: 300;
+  text-align: right;
+}
+.quote span {
+  color: var(--soft-blue);
+}
+div .menu-images a {
+  color: white;
+  font-size: 1.5rem;
+}
+.menu-images--container {
+  display: grid;
+  place-content: center;
+}
+.menu-images {
+  display: grid;
+  grid-template-rows: 150px 150px;
+  grid-auto-columns: 150px;
+  grid-auto-flow: column;
+  justify-items: center;
+  align-items: center;
+  list-style: none;
+  gap: 25px;
+}
+.menu-images img {
+  border-radius: 30px;
+  max-width: 60px;
+  height: auto;
+}
+.menu-images span {
+  display: grid;
+  justify-self: center;
+  align-self: center;
+}
+.pencil-drawings {
+  background: transparent linear-gradient(180deg, #010c14 100%, #083a5f 0%) 0%
+    0% no-repeat;
+}
+.pencil-drawings h2 {
+  color: white;
+  font-size: 3.5rem;
+  text-align: center;
+  padding: 15px;
+}
+.pencil-drawings h2 span {
+  font-weight: 300;
+}
