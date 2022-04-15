@@ -111,8 +111,8 @@ div .menu-images a {
   text-align: center;
 }
 .pencil-drawings {
-  background: transparent linear-gradient(180deg, #02111b 100%, #083a5f 100%%)
-    0% 0% no-repeat;
+  background: transparent linear-gradient(180deg, #02111b 16%, #083a5f 100%)
+    no-repeat;
 }
 .pencil-drawings h2 {
   color: white;
