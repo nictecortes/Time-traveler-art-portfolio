@@ -92,20 +92,27 @@ div .menu-images a {
   align-items: center;
   list-style: none;
   gap: 25px;
+  padding-top: 30px;
+  padding-bottom: 100px;
 }
 .menu-images img {
   border-radius: 30px;
   max-width: 60px;
   height: auto;
+  place-self: center;
+}
+.menu-images .pet-portraits {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .menu-images span {
   display: grid;
-  justify-self: center;
-  align-self: center;
+  text-align: center;
 }
 .pencil-drawings {
-  background: transparent linear-gradient(180deg, #010c14 100%, #083a5f 0%) 0%
-    0% no-repeat;
+  background: transparent linear-gradient(180deg, #02111b 100%, #083a5f 100%%)
+    0% 0% no-repeat;
 }
 .pencil-drawings h2 {
   color: white;
@@ -115,4 +122,44 @@ div .menu-images a {
 }
 .pencil-drawings h2 span {
   font-weight: 300;
+}
+hr {
+  border: 0.5px solid var(--soft-blue);
+  width: 150px;
+}
+.pencil-drawings .wrapper {
+  padding: 100px;
+}
+.pencil-drawings .skewed {
+  margin: 20px;
+  width: 120px;
+  height: 100px;
+  transform: skewX(-30deg);
+  overflow: auto;
+  position: relative;
+}
+.pencil-drawings .skewed img {
+  margin: 20px;
+  max-width: 180px;
+  transform: skewX(30deg);
+  position: absolute;
+  top: -30px;
+  left: -48px;
+}
+.pencil-drawings .skewed-transparent {
+  margin: 20px;
+  width: 350px;
+  height: 300px;
+  transform: skewX(-30deg);
+  overflow: auto;
+  position: relative;
+}
+
+.pencil-drawings .skewed-transparent img {
+  max-width: 280px;
+  opacity: 50%;
+  transform: skewX(30deg);
+  position: absolute;
+  top: -30px;
+  left: -60px;
 }
