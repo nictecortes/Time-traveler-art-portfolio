@@ -11,7 +11,7 @@ html {
   font-family: "Quicksand";
 }
 
-body {
+header {
   background: linear-gradient(180deg, #083a5f 16.69%, #010c14 100%);
   background-repeat: no-repeat;
   min-width: 280px;
@@ -111,7 +111,7 @@ div .menu-images a {
   text-align: center;
 }
 .pencil-drawings {
-  background: transparent linear-gradient(180deg, #02111b 16%, #083a5f 100%)
+  background: transparent linear-gradient(180deg, #010c14 16%, #083a5f 100%)
     no-repeat;
 }
 .pencil-drawings h2 {
