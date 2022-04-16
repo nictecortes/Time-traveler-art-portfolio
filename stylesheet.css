@@ -14,7 +14,7 @@ html {
 header {
   background: linear-gradient(180deg, #083a5f 16.69%, #010c14 100%);
   background-repeat: no-repeat;
-  min-width: 280px;
+  min-width: 320px;
   height: auto;
 }
 a {
@@ -111,30 +111,25 @@ div .menu-images a {
   text-align: center;
 }
 .pencil-drawings {
+  min-width: 320px;
   background: transparent linear-gradient(180deg, #010c14 16%, #083a5f 100%)
     no-repeat;
 }
 .pencil-drawings--title {
-  width: 600px;
   height: auto;
-  place-items: center;
 }
 .pencil-drawings h2 {
   color: white;
-  font-size: 3.5rem;
+  font-size: 3rem;
   text-align: center;
   padding: 15px;
-}
-.pencil-drawings--title hr {
-  border: 0.5px solid var(--soft-blue);
-  width: 150px;
+  font-weight: 400;
 }
 
 .pencil-drawings .wrapper {
-  padding: 100px;
+  padding-left: 40px;
 }
 .pencil-drawings .skewed {
-  margin: 20px;
   width: 120px;
   height: 100px;
   transform: skewX(-30deg);
@@ -150,18 +145,18 @@ div .menu-images a {
   left: -48px;
 }
 .pencil-drawings .wrapper-transparent {
-  padding: 100px;
+  padding-left: 90px;
 }
 .pencil-drawings .skewed-transparent {
-  width: 250px;
-  height: 300px;
+  width: 170px;
+  height: 170px;
   transform: skewX(-30deg);
   overflow: hidden;
   position: relative;
 }
 
 .pencil-drawings .skewed-transparent img {
-  max-width: 400px;
+  max-width: 350px;
   opacity: 50%;
   transform: skew(30deg);
   position: absolute;
