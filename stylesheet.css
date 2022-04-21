@@ -125,41 +125,28 @@ div .menu-images a {
   padding: 15px;
   font-weight: 400;
 }
-
-.pencil-drawings .wrapper {
-  padding-left: 40px;
+.paralelogram-images--container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 50vh;
 }
-.pencil-drawings .skewed {
-  width: 120px;
-  height: 100px;
-  transform: skewX(-30deg);
-  overflow: hidden;
-  position: relative;
+.paralelogram-images--container .wrapper {
+  display: grid;
+  grid-template-columns: repeat(6, 40px);
+  grid-template-rows: repeat(5, 40px);
+  place-content: center;
 }
-.pencil-drawings .skewed img {
-  margin: 20px;
+.image-2 {
+  grid-column-start: 3;
+  grid-row-start: 2;
+}
+.wrapper .image-1 img {
+  max-width: 130px;
+  height: auto;
+}
+.wrapper .image-2 img {
   max-width: 180px;
-  transform: skewX(30deg);
-  position: absolute;
-  top: -30px;
-  left: -48px;
-}
-.pencil-drawings .wrapper-transparent {
-  padding-left: 90px;
-}
-.pencil-drawings .skewed-transparent {
-  width: 170px;
-  height: 170px;
-  transform: skewX(-30deg);
-  overflow: hidden;
-  position: relative;
-}
-
-.pencil-drawings .skewed-transparent img {
-  max-width: 350px;
-  opacity: 50%;
-  transform: skew(30deg);
-  position: absolute;
-  top: -30px;
-  left: -75px;
+  opacity: 55%;
 }
