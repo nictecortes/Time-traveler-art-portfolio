@@ -11,7 +11,7 @@ html {
   font-family: "Quicksand";
 }
 body {
-  min-width: 320px;
+  width: 100vw;
   height: auto;
 }
 
@@ -159,15 +159,28 @@ div .menu-images a {
   margin: 0 auto;
   overflow-x: scroll;
   overflow-y: hidden;
+  gap: 20px;
   overscroll-behavior-x: contain;
   scroll-snap-type: x proximity;
 }
 
 .images-container--slider img {
   position: relative;
-  padding: 10px;
   scroll-snap-align: center;
-  min-width: 280px;
-  height: 350px;
+  width: 250px;
+  height: 320px;
   border-radius: 20px;
+}
+.charcoal-drawings {
+  width: 100vw;
+  height: 700px;
+  background: url("./Assets/images-phone/backgrounds/Edwincen-drawing-background.png");
+  background-repeat: no-repeat;
+}
+.charcoal-drawings h2 {
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+  padding: 15px;
+  font-weight: 400;
 }
