@@ -11,7 +11,7 @@ html {
   font-family: "Quicksand";
 }
 body {
-  min-width: 350px;
+  min-width: 320px;
   height: auto;
 }
 
@@ -116,12 +116,9 @@ div .menu-images a {
 }
 .pencil-drawings {
   min-width: 320px;
-  background: transparent linear-gradient(180deg, #010c14 16%, #083a5f 100%)
-    no-repeat;
+  background: linear-gradient(180deg, #010c14 16%, #083a5f 100%) no-repeat;
 }
-.pencil-drawings--title {
-  height: auto;
-}
+
 .pencil-drawings h2 {
   color: white;
   font-size: 3rem;
@@ -133,7 +130,6 @@ div .menu-images a {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100vw;
   height: 50vh;
 }
 
