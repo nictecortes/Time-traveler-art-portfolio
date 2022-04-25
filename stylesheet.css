@@ -105,7 +105,7 @@ div .menu-images a {
   height: auto;
   place-self: center;
 }
-.menu-images .pet-portraits {
+.menu-images .pet {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -155,7 +155,7 @@ div .menu-images a {
 .images-container--slider {
   display: flex;
   height: 350px;
-  width: 270px;
+  width: 250px;
   margin: 0 auto;
   overflow-x: scroll;
   overflow-y: hidden;
@@ -171,6 +171,7 @@ div .menu-images a {
   height: 320px;
   border-radius: 20px;
 }
+
 .charcoal-drawings {
   width: 100vw;
   height: 700px;
@@ -183,4 +184,35 @@ div .menu-images a {
   text-align: center;
   padding: 15px;
   font-weight: 400;
+}
+.digital-drawings {
+  background-image: url("./Assets/images-phone/backgrounds/background-digital-796.png");
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 700px;
+}
+.digital-drawings h2 {
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+  padding: 15px;
+  font-weight: 400;
+}
+.pet-portraits {
+  background-image: url("./Assets/images-phone/backgrounds/background-pet-574.png");
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 700px;
+}
+.pet-portraits h2 {
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+  padding: 15px;
+  font-weight: 400;
+}
+.contact-me {
+  background: linear-gradient(180deg, #010c14 16%, #083a5f 100%) no-repeat;
+  width: 100vw;
+  height: 700px;
 }
