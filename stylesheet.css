@@ -66,6 +66,14 @@ nav .nav-center .logo {
   width: 80px;
   height: 80px;
 }
+h1 {
+  color: white;
+  text-align: center;
+  font-family: "Raleway";
+  padding-bottom: 15px;
+  font-size: 3.5rem;
+  font-weight: 100;
+}
 .quote--container {
   margin: 0 auto;
   width: 150px;
@@ -125,6 +133,7 @@ div .menu-images a {
   text-align: center;
   padding: 15px;
   font-weight: 400;
+  font-family: "Raleway";
 }
 .paralelogram-images--container {
   display: flex;
@@ -184,6 +193,7 @@ div .menu-images a {
   text-align: center;
   padding: 15px;
   font-weight: 400;
+  font-family: "Raleway";
 }
 .digital-drawings {
   background-image: url("./Assets/images-phone/backgrounds/background-digital-796.png");
@@ -197,6 +207,7 @@ div .menu-images a {
   text-align: center;
   padding: 15px;
   font-weight: 400;
+  font-family: "Raleway";
 }
 .pet-portraits {
   background-image: url("./Assets/images-phone/backgrounds/background-pet-574.png");
@@ -210,9 +221,18 @@ div .menu-images a {
   text-align: center;
   padding: 15px;
   font-weight: 400;
+  font-family: "Raleway";
 }
 .contact-me {
   background: linear-gradient(180deg, #010c14 16%, #083a5f 100%) no-repeat;
   width: 100vw;
   height: 700px;
+}
+.contact-me h2 {
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+  padding: 15px;
+  font-weight: 400;
+  font-family: "Raleway";
 }
