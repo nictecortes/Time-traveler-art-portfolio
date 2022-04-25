@@ -236,3 +236,8 @@ div .menu-images a {
   font-weight: 400;
   font-family: "Raleway";
 }
+footer {
+  background: black;
+  width: 100vw;
+  height: 150px;
+}
