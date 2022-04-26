@@ -1,0 +1,50 @@
+@media screen and (min-width: 600px) {
+  nav .nav-center .home-icon {
+    width: 80px;
+    height: 80px;
+  }
+  nav .nav-center .menu-icon {
+    width: 40px;
+    height: 40px;
+  }
+  nav .nav-center .logo {
+    width: 120px;
+    height: 120px;
+  }
+  .div .menu-images a {
+    font-size: 5rem;
+  }
+  .menu-images img:hover {
+    cursor: pointer;
+    box-shadow: rgba(68, 142, 226, 0.8) 0 8px 8px 0;
+  }
+  .menu-images {
+    grid-template-rows: 250px;
+    grid-auto-columns: 250px;
+    gap: 30px;
+    padding-top: 40px;
+    padding-bottom: 200px;
+  }
+  .menu-images img {
+    border-radius: 50px;
+    max-width: 100px;
+    height: auto;
+    place-self: center;
+  }
+  h1 {
+    font-size: 4rem;
+  }
+  .paralelogram-images--container .wrapper {
+    display: grid;
+    grid-template-columns: repeat(6, 70px);
+    grid-template-rows: repeat(4, 70px);
+    place-content: end;
+  }
+  .pet-portraits h2 {
+    font-size: 4rem;
+  }
+  .pet-portraits {
+    background-image: url("./Assets/images-phone/backgrounds/background-pet-2438.png");
+    background-size: cover;
+  }
+}

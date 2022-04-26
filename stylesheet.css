@@ -113,6 +113,12 @@ div .menu-images a {
   height: auto;
   place-self: center;
 }
+.menu-images img:hover {
+  cursor: pointer;
+}
+.menu-images a:hover {
+  cursor: pointer;
+}
 .menu-images .pet {
   display: flex;
   flex-direction: column;
@@ -132,7 +138,7 @@ div .menu-images a {
   font-size: 3rem;
   text-align: center;
   padding: 15px;
-  font-weight: 400;
+  font-weight: 100;
   font-family: "Raleway";
 }
 .paralelogram-images--container {
@@ -192,7 +198,7 @@ div .menu-images a {
   font-size: 3rem;
   text-align: center;
   padding: 15px;
-  font-weight: 400;
+  font-weight: 100;
   font-family: "Raleway";
 }
 .digital-drawings {
@@ -206,7 +212,7 @@ div .menu-images a {
   font-size: 3rem;
   text-align: center;
   padding: 15px;
-  font-weight: 400;
+  font-weight: 100;
   font-family: "Raleway";
 }
 .pet-portraits {
@@ -220,7 +226,7 @@ div .menu-images a {
   font-size: 3rem;
   text-align: center;
   padding: 15px;
-  font-weight: 400;
+  font-weight: 100;
   font-family: "Raleway";
 }
 .contact-me {
@@ -233,7 +239,7 @@ div .menu-images a {
   font-size: 3rem;
   text-align: center;
   padding: 15px;
-  font-weight: 400;
+  font-weight: 100;
   font-family: "Raleway";
 }
 footer {
