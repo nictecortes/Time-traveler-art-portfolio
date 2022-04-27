@@ -1,4 +1,4 @@
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 1000px) {
   nav .nav-center .home-icon {
     width: 80px;
     height: 80px;
@@ -34,11 +34,31 @@
   h1 {
     font-size: 4rem;
   }
+  .paralelogram-images--container {
+    display: inline-flex;
+    justify-content: flex-start;
+    height: 50vh;
+    margin-left: 100px;
+  }
   .paralelogram-images--container .wrapper {
     display: grid;
     grid-template-columns: repeat(6, 70px);
     grid-template-rows: repeat(4, 70px);
-    place-content: end;
+    place-content: center;
+  }
+  .charcoal-drawings {
+    background-image: url("./Assets/images-phone/backgrounds/charcoal-Edwin-1500px-nobackground.png"),
+      url("./Assets/images-phone/backgrounds/Charcoal_Yalitza-1589.png"),
+      linear-gradient(180deg, #083a5f 16.69%, #010c14 100%);
+  }
+  .digital-drawings {
+    background-image: url("./Assets/images-phone/backgrounds/background-digital-3566.png");
+    background-size: cover;
+  }
+  .pencil-images--slider {
+    display: inline-flex;
+    height: 350px;
+    width: 250px;
   }
   .pet-portraits h2 {
     font-size: 4rem;

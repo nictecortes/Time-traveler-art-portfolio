@@ -1,1 +1,23 @@
-
+@media screen and (min-width: 470px) {
+  .menu-images img {
+    border-radius: 40px;
+    max-width: 75px;
+    height: auto;
+    place-self: center;
+  }
+  .digital-drawings {
+    background: url("./Assets/images-phone/backgrounds/background-digital-noback.png")
+      linear-gradient(180deg, #010c14 16%, #083a5f 100%) no-repeat;
+    background-size: cover;
+  }
+  .charcoal-drawings {
+    background-image: url("./Assets/images-phone/backgrounds/charcoal-Edwin-1016px-nobackground.png"),
+      url("./Assets/images-phone/backgrounds/Charcoal_Yalitza-1003.png"),
+      linear-gradient(180deg, #083a5f 16.69%, #010c14 100%);
+  }
+  .pet-portraits {
+    background-image: url("./Assets/images-phone/backgrounds/background-pet-1165.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
