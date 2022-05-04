@@ -18,7 +18,8 @@ body {
 header {
   background: linear-gradient(180deg, #083a5f 16.69%, #010c14 100%);
   background-repeat: no-repeat;
-  min-width: 320px;
+  width: 100%;
+  overflow: hidden;
   height: auto;
 }
 a {

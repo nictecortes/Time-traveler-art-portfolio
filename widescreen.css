@@ -50,6 +50,10 @@
     background-image: url("./Assets/images-phone/backgrounds/charcoal-Edwin-1500px-nobackground.png"),
       url("./Assets/images-phone/backgrounds/Charcoal_Yalitza-1589.png"),
       linear-gradient(180deg, #083a5f 16.69%, #010c14 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 800px;
   }
   .digital-drawings {
     background-image: url("./Assets/images-phone/backgrounds/background-digital-3566.png");
