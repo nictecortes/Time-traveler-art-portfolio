@@ -303,14 +303,12 @@ button:active {
   gap: 15px;
   justify-content: center;
 }
-.logos-contact-me a {
+.logos-contact-me img {
   width: 30px;
   height: 30px;
   margin-top: 20px;
 }
-.Instagram {
-  background-image: url("./Assets/icons/instagram.png");
-}
+
 .picture img {
   display: block;
   margin: 0 auto;

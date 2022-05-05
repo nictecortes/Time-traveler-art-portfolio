@@ -102,18 +102,17 @@
     width: 360px;
     height: 420px;
   }
+  .contact-main {
+    display: inline-flex;
+  }
   .form {
-    display: flex;
     justify-content: flex-start;
   }
   .logos-contact-me {
-    display: flex;
     flex-direction: space-evenly;
     gap: 15px;
-    justify-content: flex-end;
   }
   .picture img {
-    display: flex;
     justify-content: flex-end;
     width: 330px;
     height: 380px;
