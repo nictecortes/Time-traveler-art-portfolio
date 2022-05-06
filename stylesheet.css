@@ -326,3 +326,8 @@ footer {
   width: 100vw;
   height: 150px;
 }
+.logo-footer {
+  display: block;
+  margin: 0 auto;
+  width: 150px;
+}
