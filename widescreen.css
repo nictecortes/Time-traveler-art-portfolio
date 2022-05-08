@@ -81,6 +81,7 @@
   }
   h2 {
     font-size: 4rem;
+    margin-bottom: 30px;
   }
   .pet-portraits {
     background-image: url("./Assets/images-phone/backgrounds/background-pet-2438.png");
@@ -93,6 +94,7 @@
     justify-content: center;
     align-items: center;
   }
+
   .images-container--slider {
     height: 420px;
     width: 320px;
@@ -102,20 +104,28 @@
     width: 360px;
     height: 420px;
   }
-  .contact-main {
+  .contact-main--cards {
     display: inline-flex;
   }
   .form {
-    justify-content: flex-start;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
   }
   .logos-contact-me {
+    display: flex;
     flex-direction: space-evenly;
     gap: 15px;
   }
-  .picture img {
-    justify-content: flex-end;
+  .picture .my-photo {
     width: 330px;
     height: 380px;
     border-radius: 20px;
+  }
+  .picture {
+    display: inline-flex;
+    justify-content: center;
+    width: 50vw;
   }
 }

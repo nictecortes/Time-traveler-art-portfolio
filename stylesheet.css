@@ -133,7 +133,9 @@ div .menu-images a {
   min-width: 320px;
   background: linear-gradient(180deg, #010c14 16%, #083a5f 100%) no-repeat;
 }
-
+h2 {
+  margin-bottom: 20px;
+}
 .pencil-drawings h2 {
   color: white;
   font-size: 3rem;
@@ -294,26 +296,24 @@ button {
 button:active {
   background-color: #53aad1;
 }
-.contact-main--cards {
-  display: inline;
-}
+
 .logos-contact-me {
   display: flex;
   flex-direction: space-evenly;
   gap: 15px;
   justify-content: center;
 }
-.logos-contact-me img {
+.logos-contact-me .logo-cntact {
   width: 30px;
   height: 30px;
   margin-top: 20px;
 }
 
-.picture img {
+.picture .my-photo {
   display: block;
   margin: 0 auto;
   align-items: center;
-  width: 230px;
+  width: 220px;
   height: 280px;
   border-radius: 10px;
 }
@@ -329,5 +329,10 @@ footer {
 .logo-footer {
   display: block;
   margin: 0 auto;
-  width: 150px;
+  width: 120px;
+}
+.left p {
+  color: rgb(180, 179, 179);
+  text-align: left;
+  padding-left: 10px;
 }
