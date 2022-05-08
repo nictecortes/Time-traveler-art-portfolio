@@ -235,7 +235,7 @@ h2 {
 .contact-me {
   background: linear-gradient(180deg, #010c14 16%, #083a5f 100%) no-repeat;
   width: 100vw;
-  height: 700px;
+  height: 800px;
 }
 .contact-me h2 {
   color: white;
@@ -281,8 +281,9 @@ input {
   padding-left: 5px;
 }
 button {
-  display: flex;
 
+  display: flex;
+  justify-content: center;
   border-color: #53aad1;
   border-radius: 25px;
   border-width: 1px;
@@ -292,6 +293,8 @@ button {
   color: white;
   font-size: 12px;
   padding: 10px;
+  width: 25%;
+  align-self: flex-end;
 }
 button:active {
   background-color: #53aad1;
@@ -321,6 +324,12 @@ button:active {
   display: flex;
   justify-content: center;
 }
+
+form {
+ display: flex;
+ flex-direction: column;
+}
+
 footer {
   background: black;
   width: 100vw;
