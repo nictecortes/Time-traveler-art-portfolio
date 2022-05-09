@@ -281,7 +281,6 @@ input {
   padding-left: 5px;
 }
 button {
-
   display: flex;
   justify-content: center;
   border-color: #53aad1;
@@ -298,6 +297,9 @@ button {
 }
 button:active {
   background-color: #53aad1;
+}
+button:hover {
+  cursor: pointer;
 }
 
 .logos-contact-me {
@@ -326,8 +328,8 @@ button:active {
 }
 
 form {
- display: flex;
- flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 footer {
