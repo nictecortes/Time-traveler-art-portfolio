@@ -2,7 +2,7 @@ const form = document.querySelectorAll("[form-send]");
 
 function sendData(body) {
   let xhr = new XMLHttpRequest();
-  xhr.open("POST", "https://imtimetraveler.com/email_custom/email.php");
+  xhr.open("POST", "https://imtimetraveler.com/email_custom/");
   //xhr.open("POST", "./send_email.php");
   xhr.setRequestHeader("Accept", "application/json");
   xhr.setRequestHeader("Content-Type", "application/json");
