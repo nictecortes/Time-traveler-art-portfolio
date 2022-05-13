@@ -35,7 +35,24 @@
           <li class="logo">
             <a href="#"> </a>
           </li>
-          <li class="menu-icon"><a href="#"></a></li>
+
+          <li class="menu-icon">
+            <div class="hamburger nav-center"></div>
+            <div class="menu-checkbox">
+              <div>
+                <div>
+                  <ul>
+                    <li><a href="./About-me/index.html">About-Me</a></li>
+                    <li>
+                      <a href="https://imtimetraveler.com/category/blog/"
+                        >Blog</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
         </ul>
       </nav>
       <h1>Art Portfolio</h1>
@@ -211,7 +228,7 @@
             </div>
           </div>
           <div class="form">
-            <form action="" method="">
+            <form action="" method="" form-send>
               <label for="Name">
                 <span class="letters">Name</span><br />
                 <input type="text" id="Name" required /> </label
@@ -225,17 +242,17 @@
                   required
                 /> </label
               ><br />
-              <label for="placeholder">
+              <label for="message">
                 <span class="letters">Message </span><br />
                 <textarea
                   type="text"
+                  id="message"
                   class="placeholder"
-                  placeholder="Write your message..."
                   required
                   rows="5"
                   cols="33"
-                >
-                </textarea></label
+                  maxlength="255"
+                ></textarea></label
               ><br />
               <button type="submit">Submit</button>
             </form>
@@ -245,12 +262,17 @@
       </section>
     </main>
     <footer>
-      <a href="#header"
-        ><img
-          class="logo-footer"
-          src="./Assets/icons/time traveler logo small.png"
-          alt=""
-      /></a>
+      <div class="logo-footer--container">
+        <a href="#header">
+          <img
+            class="logo-footer"
+            src="./Assets/icons/time traveler logo small.png"
+            alt=""
+          />
+          <p class="click">click to go up</p></a
+        >
+      </div>
+
       <div class="left">
         <a href="https://www.etsy.com/shop/TimeTravelerArt" target="_blank"
           ><p class="etsy-shop">Etsy Shop</p></a
@@ -258,5 +280,6 @@
         <a href="www.imtimetraveler.com" target="_blank"><p>Blog</p></a>
       </div>
     </footer>
+    <script src="index.js"></script>
   </body>
 </html>
