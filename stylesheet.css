@@ -13,6 +13,25 @@ html {
 body {
   width: 100vw;
   height: auto;
+  position: relative;
+}
+
+.d-none {
+  display: none;
+}
+
+.menu-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 header {
@@ -35,6 +54,7 @@ nav .nav-center {
   align-items: center;
   list-style: none;
 }
+
 nav .nav-center li {
   color: white;
   margin: 20px;
@@ -69,14 +89,18 @@ nav .nav-center .menu-icon {
   height: 20px;
 }
 
-.menu-checkbox {
-  visibility: hidden;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
+.secciones li a {
+  display: block;
+  text-decoration: none;
+  padding: 10px;
+  color: rgba(255, 255, 255, 0.75);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  transition: all ease 0.25s;
+}
+
+.secciones li a:hover {
+  color: rgba(255, 255, 255, 1);
+  border-bottom-color: rgba(255, 255, 255, 0.4);
 }
 
 h1 {
